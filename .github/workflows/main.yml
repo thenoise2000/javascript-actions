@@ -7,7 +7,7 @@ jobs:
     steps: 
     - name: Hello world action steps
       id: hello
-      uses: thenoise2000/javascript-actions
+            
       with:
         who-to-greet: 'Ralph'
     - name: Get the output time
